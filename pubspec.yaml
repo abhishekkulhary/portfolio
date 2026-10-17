@@ -1,0 +1,67 @@
+name: portfolio
+description: "Futuristic multiplatform portfolio of Abhishek Choudhary"
+publish_to: 'none'
+
+# CI overrides these with --build-name (from the git tag) and --build-number.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2
+  url_launcher: ^6.3.3
+  http: ^1.6.0
+  font_awesome_flutter: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/resume/
+
+  # Fonts are bundled (not fetched from Google at runtime): works offline in the
+  # native apps and keeps visitor IPs away from third parties (GDPR).
+  fonts:
+    - family: SpaceGrotesk
+      fonts:
+        - asset: assets/fonts/SpaceGrotesk-Regular.ttf
+        - asset: assets/fonts/SpaceGrotesk-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/SpaceGrotesk-Bold.ttf
+          weight: 700
+    - family: JetBrainsMono
+      fonts:
+        - asset: assets/fonts/JetBrainsMono-Regular.ttf
+        - asset: assets/fonts/JetBrainsMono-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/JetBrainsMono-Bold.ttf
+          weight: 700
+
+# Regenerate platform icons with: dart run flutter_launcher_icons
+flutter_launcher_icons:
+  image_path: assets/icon/app_icon.png
+  android: true
+  adaptive_icon_background: "#05070D"
+  adaptive_icon_foreground: assets/icon/app_icon_foreground.png
+  ios: true
+  remove_alpha_ios: true
+  web:
+    generate: true
+    background_color: "#05070D"
+    theme_color: "#05070D"
+  windows:
+    generate: true
+    icon_size: 256
+  macos:
+    generate: true
+    image_path: assets/icon/app_icon_macos.png
