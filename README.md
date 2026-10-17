@@ -52,10 +52,53 @@ It can also be started from the **Actions** tab with a tag name. The site reads 
 
 | Asset | Notes |
 | --- | --- |
-| `portfolio-android.apk` | Signed with a CI-generated debug key — installable, but each release needs an uninstall before updating until a release keystore is configured. |
+| `portfolio-android.apk` | Signed with your release key when the four `ANDROID_*` secrets are set, so each release installs over the last one (see [Android signing](#android-signing)). Without them CI signs with a throwaway debug key and logs a warning; users then have to uninstall before updating. |
 | `portfolio-windows-x64.zip` | Includes the MSVC runtime DLLs; unzip and run `portfolio.exe`. |
 | `portfolio-macos.dmg` | Universal, ad-hoc signed (no Apple Developer ID): allow it under *System Settings → Privacy & Security* on first launch. |
 | `portfolio-linux-x64.tar.gz` | Built on Ubuntu 24.04; extract and run `./portfolio`. |
+
+### Android signing
+
+Android only lets an APK replace an installed app if both are signed with the same key. Create the key once and keep it safe: **if you lose it, users cannot update in place again.** Never commit it. `android/key.properties`, `*.jks` and `*.keystore` are git-ignored.
+
+1. **Create the keystore** (outside the repo; `keytool` comes with any JDK):
+
+   ```bash
+   keytool -genkeypair -v -keystore ~/portfolio-release.jks -storetype PKCS12 \
+     -keyalg RSA -keysize 4096 -validity 10000 -alias portfolio
+   ```
+
+   It asks for a password and your name/organisation. PKCS12 uses one password for both the store and the key. Avoid backslashes in it, because `key.properties` is a Java properties file.
+
+2. **Base64-encode it** for the secret:
+
+   ```bash
+   base64 -i ~/portfolio-release.jks | pbcopy        # macOS; Linux: base64 -w0 ~/portfolio-release.jks
+   ```
+
+3. **Add four repository secrets** under *Settings → Secrets and variables → Actions → New repository secret*:
+
+   | Secret | Value |
+   | --- | --- |
+   | `ANDROID_KEYSTORE_BASE64` | the base64 text from step 2 |
+   | `ANDROID_KEYSTORE_PASSWORD` | the keystore password |
+   | `ANDROID_KEY_ALIAS` | `portfolio` (the `-alias` above) |
+   | `ANDROID_KEY_PASSWORD` | the same password (PKCS12) |
+
+   Or, with the GitHub CLI: `base64 -i ~/portfolio-release.jks | gh secret set ANDROID_KEYSTORE_BASE64`, and `gh secret set <NAME>` for the other three (it prompts for the value).
+
+4. **Optional: sign local release builds too.** Create `android/key.properties`:
+
+   ```properties
+   storeFile=/Users/you/portfolio-release.jks
+   storePassword=…
+   keyAlias=portfolio
+   keyPassword=…
+   ```
+
+   `storeFile` can be absolute or relative to `android/`. Without this file, `flutter build apk --release` uses the debug key.
+
+The release log prints the APK's certificate SHA-256 after each build; it should be the same every time. The first release signed with the new key still needs a one-time uninstall on devices that have a debug-signed build.
 
 ## Implementation notes
 
