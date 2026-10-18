@@ -260,6 +260,38 @@ abstract final class PortfolioData {
       icon: Icons.image_search_rounded,
     ),
     Project(
+      title: 'Termino',
+      tagline: 'Terminal emulator & SSH client',
+      kind: 'Open source',
+      year: '2026',
+      description:
+          'A cross-platform terminal emulator and SSH client from one Flutter codebase: a real '
+          'PTY-backed local shell wherever the platform allows one, plus remote shells, SFTP file '
+          'transfer and port forwarding over SSH.',
+      highlights: [
+        'One TerminalBackend interface for a local PTY, a remote SSH session and replayed test '
+            'fixtures, so the terminal UI never knows what it is attached to.',
+        'One login per host: shells, the SFTP file browser and port forwards share a single '
+            'SSH connection.',
+        'Works where it honestly can: no local shell on iOS or the web, gated off with an in-app '
+            'explanation; the web build reaches SSH through a relay that never sees plaintext.',
+        'Resolves .local hosts over multicast DNS on platforms whose resolver cannot.',
+        'Pure-Dart domain layer enforced in CI; release builds for every desktop and mobile '
+            'platform from GitHub Actions.',
+      ],
+      stack: ['Flutter', 'Dart', 'SSH', 'SFTP', 'PTY', 'Riverpod', 'Drift', 'xterm', 'GitHub Actions'],
+      categories: {ProjectCategory.flutter},
+      icon: Icons.terminal_rounded,
+      links: [
+        ProjectLink(
+          label: 'Source',
+          url: 'https://github.com/abhishekkulhary/termino',
+          icon: FontAwesomeIcons.github,
+        ),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/termino/'),
+      ],
+    ),
+    Project(
       title: 'Luna',
       tagline: 'Private, on-device cycle tracker',
       kind: 'Personal app',
