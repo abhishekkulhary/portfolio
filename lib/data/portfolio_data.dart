@@ -169,7 +169,7 @@ abstract final class PortfolioData {
       ],
     ),
     Experience(
-      role: 'System Engineer → Senior System Engineer',
+      role: 'System Engineer Trainee → System Engineer → Senior System Engineer',
       company: 'Infosys',
       location: 'Pune, India',
       start: 'Jun 2015',
