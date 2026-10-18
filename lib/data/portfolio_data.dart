@@ -237,7 +237,7 @@ abstract final class PortfolioData {
         'Reusable, cross-platform geocoding package on top of OpenStreetMap Nominatim.',
         'Flutter client talking to robot back ends over REST.',
       ],
-      stack: ['Flutter', 'Dart', 'REST', 'OpenStreetMap', 'Nominatim'],
+      stack: ['Flutter', 'Dart', 'REST API', 'WebSocket', 'gRPC', 'flutter_map', 'OpenStreetMap', 'Nominatim'],
       categories: {ProjectCategory.flutter, ProjectCategory.research},
       icon: Icons.flight_takeoff_rounded,
     ),
