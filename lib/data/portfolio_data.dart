@@ -307,6 +307,14 @@ abstract final class PortfolioData {
       stack: ['Flutter', 'Riverpod', 'go_router', 'Drift', 'fl_chart', 'local_auth'],
       categories: {ProjectCategory.flutter},
       icon: Icons.nightlight_round,
+      links: [
+        ProjectLink(
+          label: 'Source',
+          url: 'https://github.com/abhishekkulhary/luna',
+          icon: FontAwesomeIcons.github,
+        ),
+        ProjectLink(label: 'Live app', url: 'https://abhishekkulhary.github.io/luna/'),
+      ],
     ),
     Project(
       title: 'Chronoflux',
@@ -324,6 +332,14 @@ abstract final class PortfolioData {
       stack: ['Flutter', 'Riverpod', 'Hive', 'fl_chart', 'flutter_animate'],
       categories: {ProjectCategory.flutter},
       icon: Icons.timer_rounded,
+      links: [
+        ProjectLink(
+          label: 'Source',
+          url: 'https://github.com/abhishekkulhary/chronoflux',
+          icon: FontAwesomeIcons.github,
+        ),
+        ProjectLink(label: 'Live app', url: 'https://abhishekkulhary.github.io/chronoflux/'),
+      ],
     ),
     Project(
       title: 'Quiet Places',
@@ -342,6 +358,14 @@ abstract final class PortfolioData {
       stack: ['Flutter', 'Riverpod', 'Drift', 'Geofencing', 'flutter_map', 'Platform channels'],
       categories: {ProjectCategory.flutter},
       icon: Icons.notifications_off_rounded,
+      links: [
+        ProjectLink(
+          label: 'Source',
+          url: 'https://github.com/abhishekkulhary/quiet-places',
+          icon: FontAwesomeIcons.github,
+        ),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/quiet-places/'),
+      ],
     ),
     Project(
       title: 'Einbürgerungstest Trainer',
@@ -359,6 +383,14 @@ abstract final class PortfolioData {
       stack: ['Flutter', 'Provider', 'Hive', 'Lottie', 'i18n'],
       categories: {ProjectCategory.flutter},
       icon: Icons.school_rounded,
+      links: [
+        ProjectLink(
+          label: 'Source',
+          url: 'https://github.com/abhishekkulhary/einbuergerungstest-trainer',
+          icon: FontAwesomeIcons.github,
+        ),
+        ProjectLink(label: 'Live app', url: 'https://abhishekkulhary.github.io/einbuergerungstest-trainer/'),
+      ],
     ),
     Project(
       title: 'Electronic Voting System',
@@ -392,6 +424,14 @@ abstract final class PortfolioData {
       stack: ['Flutter', 'SQLite', 'CSV'],
       categories: {ProjectCategory.flutter},
       icon: Icons.celebration_rounded,
+      links: [
+        ProjectLink(
+          label: 'Source',
+          url: 'https://github.com/abhishekkulhary/event-manager',
+          icon: FontAwesomeIcons.github,
+        ),
+        ProjectLink(label: 'Live app', url: 'https://abhishekkulhary.github.io/event-manager/'),
+      ],
     ),
     Project(
       title: 'This portfolio',
