@@ -103,7 +103,7 @@ abstract final class PortfolioData {
     SkillGroup(
       title: 'Backend',
       icon: Icons.dns_rounded,
-      items: ['Spring', 'REST API', 'WebSocket', 'gRPC', 'MuleSoft', 'Apigee', 'Nginx', 'Apache', 'Maven'],
+      items: ['Spring', 'REST API', 'WebSocket', 'gRPC', 'MuleSoft', 'Apigee', 'Maven'],
     ),
     SkillGroup(
       title: 'Frontend',
@@ -118,7 +118,7 @@ abstract final class PortfolioData {
     SkillGroup(
       title: 'Tooling & practice',
       icon: Icons.terminal_rounded,
-      items: ['Docker', 'Git', 'GitHub Actions', 'Code review', 'Automated testing', 'Agile delivery'],
+      items: ['Docker', 'Nginx', 'Apache', 'Git', 'GitHub Actions', 'Code review', 'Automated testing', 'Agile delivery'],
     ),
   ];
 
