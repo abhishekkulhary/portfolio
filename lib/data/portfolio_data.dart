@@ -160,7 +160,7 @@ abstract final class PortfolioData {
       location: 'Brunswick, Germany',
       start: 'Mar 2020',
       end: 'Mar 2022',
-      stack: ['Python', 'REST', 'PostgreSQL', 'PostGIS'],
+      stack: ['Python', 'REST API', 'PostgreSQL', 'PostGIS', 'Nginx', 'Docker', 'Flask', 'Redis', 'Git'],
       highlights: [
         'Built Python REST services powering the planning tools used to route '
             'railway infrastructure.',
