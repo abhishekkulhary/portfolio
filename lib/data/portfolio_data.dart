@@ -174,7 +174,7 @@ abstract final class PortfolioData {
       location: 'Pune, India',
       start: 'Jun 2015',
       end: 'Jul 2018',
-      stack: ['Java', 'MuleSoft', 'Apigee', 'Middleware'],
+      stack: ['Java', 'MuleSoft', 'Apigee', 'Middleware', 'Spring', 'Hibernate', 'SQL', 'JSF', 'Git', 'XHTML'],
       highlights: [
         'Built enterprise integrations in Java, MuleSoft and Apigee to move data '
             'between client systems that had no shared interface.',
