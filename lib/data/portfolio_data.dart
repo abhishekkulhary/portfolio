@@ -98,7 +98,7 @@ abstract final class PortfolioData {
     SkillGroup(
       title: 'Languages',
       icon: Icons.code_rounded,
-      items: ['Java', 'Python', 'TypeScript', 'JavaScript', 'SQL', 'Dart'],
+      items: ['Java', 'Python', 'TypeScript', 'JavaScript', 'SQL', 'Dart', 'HTML', 'CSS'],
     ),
     SkillGroup(
       title: 'Backend',
@@ -108,7 +108,7 @@ abstract final class PortfolioData {
     SkillGroup(
       title: 'Frontend',
       icon: Icons.web_rounded,
-      items: ['Angular', 'Flutter', 'HTML', 'CSS', 'Responsive UI'],
+      items: ['Angular', 'Flutter'],
     ),
     SkillGroup(
       title: 'Data',
