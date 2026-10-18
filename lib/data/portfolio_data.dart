@@ -98,27 +98,27 @@ abstract final class PortfolioData {
     SkillGroup(
       title: 'Languages',
       icon: Icons.code_rounded,
-      items: ['Java', 'Python', 'TypeScript', 'JavaScript', 'SQL', 'Dart', 'HTML', 'CSS'],
+      items: ['Java', 'Kotlin', 'Python', 'TypeScript', 'JavaScript', 'SQL', 'Dart', 'HTML', 'XHTML', 'CSS'],
     ),
     SkillGroup(
       title: 'Backend',
       icon: Icons.dns_rounded,
-      items: ['Spring', 'REST API', 'WebSocket', 'gRPC', 'MuleSoft', 'Apigee', 'Maven'],
+      items: ['Spring', 'Hibernate', 'Flask', 'REST API', 'WebSocket', 'gRPC', 'MuleSoft', 'Apigee', 'Middleware', 'Maven'],
     ),
     SkillGroup(
       title: 'Frontend',
       icon: Icons.web_rounded,
-      items: ['Angular', 'Flutter'],
+      items: ['Angular', 'Flutter', 'Android', 'JSF'],
     ),
     SkillGroup(
       title: 'Data',
       icon: Icons.storage_rounded,
-      items: ['MSSQL', 'Oracle', 'PostgreSQL', 'PostGIS', 'MySQL'],
+      items: ['MSSQL', 'Oracle', 'PostgreSQL', 'PostGIS', 'MySQL', 'Redis'],
     ),
     SkillGroup(
       title: 'Tooling & practice',
       icon: Icons.terminal_rounded,
-      items: ['Docker', 'Nginx', 'Apache', 'Git', 'GitHub Actions', 'Code review', 'Automated testing', 'Agile delivery'],
+      items: ['Docker', 'Nginx', 'Apache', 'Git', 'GitHub Actions', 'Jenkins', 'SonarQube', 'IntelliJ', 'OOP', 'Code review', 'Automated testing', 'Agile delivery'],
     ),
   ];
 
