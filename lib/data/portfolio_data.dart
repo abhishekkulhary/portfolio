@@ -46,7 +46,7 @@ abstract final class PortfolioData {
 
   static List<Stat> get stats => [
         const Stat('6+', 'years in production'),
-        const Stat('4', 'engineering roles'),
+        Stat('${experience.length}', 'engineering roles'),
         const Stat('3', 'certifications'),
         Stat('${projects.length}', 'projects shown'),
       ];
@@ -180,6 +180,18 @@ abstract final class PortfolioData {
             'between client systems that had no shared interface.',
         'Ran production support for middleware applications against client SLAs, '
             'diagnosing integration failures to root cause.',
+      ],
+    ),
+    Experience(
+      role: 'Engineering Intern',
+      company: 'Open Text India Pvt. Ltd.',
+      location: 'Hyderabad, India',
+      start: 'Jan 2015',
+      end: 'May 2015',
+      stack: ['Java', 'Spring', 'API', 'Git', 'OOP'],
+      highlights: [
+        'Worked on the development of a tool integrating a document repository '
+            'with a universal document viewer (BRAVA Viewer).',
       ],
     ),
   ];
