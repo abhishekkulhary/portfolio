@@ -144,7 +144,7 @@ abstract final class PortfolioData {
       location: 'Hamburg, Germany',
       start: 'Aug 2022',
       end: 'Feb 2024',
-      stack: ['Java', 'Spring Boot', 'Angular', 'Oracle'],
+      stack: ['Java', 'Spring', 'Angular', 'Oracle', 'TypeScript', 'SonarQube', 'REST API', 'HTML', 'Hibernate', 'IntelliJ', 'Git', 'OOP'],
       highlights: [
         'Rewrote booking-detection logic in the CASS airfreight billing system, '
             'cutting missed and incorrectly billed shipments.',
