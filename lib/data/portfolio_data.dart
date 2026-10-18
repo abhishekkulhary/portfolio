@@ -19,7 +19,7 @@ abstract final class PortfolioData {
     role: 'Full-Stack Software Engineer',
     rotatingRoles: [
       'Full-Stack Software Engineer',
-      'Java · Spring Boot back ends',
+      'Java & Spring back ends',
       'Angular & Flutter front ends',
       'APIs, integrations & data',
     ],
