@@ -128,7 +128,7 @@ abstract final class PortfolioData {
       company: 'Alpha Loop GmbH',
       location: 'Lindlar, Germany',
       start: 'May 2024',
-      stack: ['Java', 'Spring', 'Angular', 'REST', 'MSSQL'],
+      stack: ['Java', 'Spring', 'Angular', 'REST API', 'MSSQL', 'CSS', 'HTML', 'Hibernate', 'Git', 'Jenkins', 'Android', 'Kotlin'],
       highlights: [
         'Develop and extend the logistics platform used to manage bookings and '
             'customer maintenance, across the Angular front end and the Java / Spring back end.',
