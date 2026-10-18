@@ -103,7 +103,7 @@ abstract final class PortfolioData {
     SkillGroup(
       title: 'Backend',
       icon: Icons.dns_rounded,
-      items: ['Spring', 'Spring Boot', 'REST API design', 'gRPC', 'MuleSoft', 'Apigee', 'Maven'],
+      items: ['Spring', 'REST API', 'WebSocket', 'gRPC', 'MuleSoft', 'Apigee', 'Nginx', 'Apache', 'Maven'],
     ),
     SkillGroup(
       title: 'Frontend',
