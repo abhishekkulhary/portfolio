@@ -113,7 +113,7 @@ abstract final class PortfolioData {
     SkillGroup(
       title: 'Data',
       icon: Icons.storage_rounded,
-      items: ['MSSQL', 'Oracle', 'PostgreSQL', 'PostGIS', 'MySQL', 'SQLite'],
+      items: ['MSSQL', 'Oracle', 'PostgreSQL', 'PostGIS', 'MySQL'],
     ),
     SkillGroup(
       title: 'Tooling & practice',
