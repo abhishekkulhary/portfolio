@@ -103,7 +103,7 @@ abstract final class PortfolioData {
     SkillGroup(
       title: 'Backend',
       icon: Icons.dns_rounded,
-      items: ['Spring', 'Hibernate', 'Flask', 'REST API', 'WebSocket', 'gRPC', 'MuleSoft', 'Apigee', 'Middleware', 'Maven'],
+      items: ['Spring', 'Hibernate', 'JPA', 'Flask', 'REST API', 'WebSocket', 'gRPC', 'MuleSoft', 'Apigee', 'Middleware', 'Maven'],
     ),
     SkillGroup(
       title: 'Frontend',
@@ -128,7 +128,7 @@ abstract final class PortfolioData {
       company: 'Alpha Loop GmbH',
       location: 'Lindlar, Germany',
       start: 'May 2024',
-      stack: ['Java', 'Spring', 'Angular', 'REST API', 'MSSQL', 'CSS', 'HTML', 'Hibernate', 'Git', 'Jenkins', 'Android', 'Kotlin'],
+      stack: ['Java', 'Spring', 'Angular', 'REST API', 'MSSQL', 'CSS', 'HTML', 'Hibernate', 'JPA', 'Git', 'Jenkins', 'Android', 'Kotlin'],
       highlights: [
         'Develop and extend the logistics platform used to manage bookings and '
             'customer maintenance, across the Angular front end and the Java / Spring back end.',
@@ -144,7 +144,7 @@ abstract final class PortfolioData {
       location: 'Hamburg, Germany',
       start: 'Aug 2022',
       end: 'Feb 2024',
-      stack: ['Java', 'Spring', 'Angular', 'Oracle', 'TypeScript', 'SonarQube', 'REST API', 'HTML', 'Hibernate', 'IntelliJ', 'Git', 'OOP'],
+      stack: ['Java', 'Spring', 'Angular', 'Oracle', 'TypeScript', 'SonarQube', 'REST API', 'HTML', 'Hibernate', 'JPA', 'IntelliJ', 'Git', 'OOP'],
       highlights: [
         'Rewrote booking-detection logic in the CASS airfreight billing system, '
             'cutting missed and incorrectly billed shipments.',
@@ -174,7 +174,7 @@ abstract final class PortfolioData {
       location: 'Pune, India',
       start: 'Jun 2015',
       end: 'Jul 2018',
-      stack: ['Java', 'MuleSoft', 'Apigee', 'Middleware', 'Spring', 'Hibernate', 'SQL', 'JSF', 'Git', 'XHTML'],
+      stack: ['Java', 'MuleSoft', 'Apigee', 'Middleware', 'Spring', 'Hibernate', 'JPA', 'SQL', 'JSF', 'Git', 'XHTML'],
       highlights: [
         'Built enterprise integrations in Java, MuleSoft and Apigee to move data '
             'between client systems that had no shared interface.',
