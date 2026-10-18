@@ -245,7 +245,7 @@ abstract final class PortfolioData {
       title: 'IDOHA',
       tagline: 'Image database for humanities research',
       kind: 'Master\'s thesis',
-      year: '2024',
+      year: '2022',
       description:
           'A full-stack, annotated image database for humanities researchers, '
           'with a computer-vision pipeline that detects and anonymises people in '
