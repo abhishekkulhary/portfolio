@@ -289,7 +289,7 @@ abstract final class PortfolioData {
           url: 'https://github.com/abhishekkulhary/termino',
           icon: FontAwesomeIcons.github,
         ),
-        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/termino/'),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/termino/', icon: FontAwesomeIcons.globe),
       ],
     ),
     Project(
@@ -315,8 +315,8 @@ abstract final class PortfolioData {
           url: 'https://github.com/abhishekkulhary/luna',
           icon: FontAwesomeIcons.github,
         ),
-        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/luna/'),
-        ProjectLink(label: 'Web app', url: 'https://abhishekkulhary.github.io/luna/app/'),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/luna/', icon: FontAwesomeIcons.globe),
+        ProjectLink(label: 'Web app', url: 'https://abhishekkulhary.github.io/luna/app/', icon: FontAwesomeIcons.rocket),
       ],
     ),
     Project(
@@ -342,8 +342,8 @@ abstract final class PortfolioData {
           url: 'https://github.com/abhishekkulhary/chronoflux',
           icon: FontAwesomeIcons.github,
         ),
-        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/chronoflux/'),
-        ProjectLink(label: 'Web app', url: 'https://abhishekkulhary.github.io/chronoflux/app/'),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/chronoflux/', icon: FontAwesomeIcons.globe),
+        ProjectLink(label: 'Web app', url: 'https://abhishekkulhary.github.io/chronoflux/app/', icon: FontAwesomeIcons.rocket),
       ],
     ),
     Project(
@@ -370,7 +370,7 @@ abstract final class PortfolioData {
           url: 'https://github.com/abhishekkulhary/quiet-places',
           icon: FontAwesomeIcons.github,
         ),
-        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/quiet-places/'),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/quiet-places/', icon: FontAwesomeIcons.globe),
       ],
     ),
     Project(
@@ -396,8 +396,8 @@ abstract final class PortfolioData {
           url: 'https://github.com/abhishekkulhary/einbuergerungstest-trainer',
           icon: FontAwesomeIcons.github,
         ),
-        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/einbuergerungstest-trainer/'),
-        ProjectLink(label: 'Web app', url: 'https://abhishekkulhary.github.io/einbuergerungstest-trainer/app/'),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/einbuergerungstest-trainer/', icon: FontAwesomeIcons.globe),
+        ProjectLink(label: 'Web app', url: 'https://abhishekkulhary.github.io/einbuergerungstest-trainer/app/', icon: FontAwesomeIcons.rocket),
       ],
     ),
     Project(
@@ -440,8 +440,8 @@ abstract final class PortfolioData {
           url: 'https://github.com/abhishekkulhary/event-manager',
           icon: FontAwesomeIcons.github,
         ),
-        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/event-manager/'),
-        ProjectLink(label: 'Web app', url: 'https://abhishekkulhary.github.io/event-manager/app/'),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/event-manager/', icon: FontAwesomeIcons.globe),
+        ProjectLink(label: 'Web app', url: 'https://abhishekkulhary.github.io/event-manager/app/', icon: FontAwesomeIcons.rocket),
       ],
     ),
     Project(
