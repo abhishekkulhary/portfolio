@@ -315,7 +315,8 @@ abstract final class PortfolioData {
           url: 'https://github.com/abhishekkulhary/luna',
           icon: FontAwesomeIcons.github,
         ),
-        ProjectLink(label: 'Live app', url: 'https://abhishekkulhary.github.io/luna/'),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/luna/'),
+        ProjectLink(label: 'Web app', url: 'https://abhishekkulhary.github.io/luna/app/'),
       ],
     ),
     Project(
@@ -341,7 +342,8 @@ abstract final class PortfolioData {
           url: 'https://github.com/abhishekkulhary/chronoflux',
           icon: FontAwesomeIcons.github,
         ),
-        ProjectLink(label: 'Live app', url: 'https://abhishekkulhary.github.io/chronoflux/'),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/chronoflux/'),
+        ProjectLink(label: 'Web app', url: 'https://abhishekkulhary.github.io/chronoflux/app/'),
       ],
     ),
     Project(
@@ -394,7 +396,8 @@ abstract final class PortfolioData {
           url: 'https://github.com/abhishekkulhary/einbuergerungstest-trainer',
           icon: FontAwesomeIcons.github,
         ),
-        ProjectLink(label: 'Live app', url: 'https://abhishekkulhary.github.io/einbuergerungstest-trainer/'),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/einbuergerungstest-trainer/'),
+        ProjectLink(label: 'Web app', url: 'https://abhishekkulhary.github.io/einbuergerungstest-trainer/app/'),
       ],
     ),
     Project(
@@ -437,7 +440,8 @@ abstract final class PortfolioData {
           url: 'https://github.com/abhishekkulhary/event-manager',
           icon: FontAwesomeIcons.github,
         ),
-        ProjectLink(label: 'Live app', url: 'https://abhishekkulhary.github.io/event-manager/'),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/event-manager/'),
+        ProjectLink(label: 'Web app', url: 'https://abhishekkulhary.github.io/event-manager/app/'),
       ],
     ),
     Project(
