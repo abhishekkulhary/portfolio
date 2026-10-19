@@ -228,6 +228,7 @@ abstract final class PortfolioData {
       title: 'Skyview',
       tagline: 'UAV & ground-robot mission control',
       kind: 'R&D MVP',
+      year: '2021–2022',
       description:
           'An operator interface for planning missions and controlling UAVs and '
           'ground-based robots, plus a cross-platform geocoding package built on '
@@ -295,6 +296,7 @@ abstract final class PortfolioData {
       title: 'Luna',
       tagline: 'Private, on-device cycle tracker',
       kind: 'Personal app',
+      year: '2026',
       description:
           'A privacy-first period and ovulation tracker for iOS, Android, web and '
           'desktop. No account and no server — all health data stays on the device.',
@@ -320,6 +322,7 @@ abstract final class PortfolioData {
       title: 'Chronoflux',
       tagline: 'A Pomodoro timer that never drifts',
       kind: 'Personal app',
+      year: '2026',
       description:
           'A neon-glass Pomodoro timer for mobile, desktop and web. Intervals store '
           'an absolute end time instead of counting ticks, so throttled tabs, '
@@ -345,6 +348,7 @@ abstract final class PortfolioData {
       title: 'Quiet Places',
       tagline: 'Location-aware phone silencer',
       kind: 'Personal app',
+      year: '2026',
       description:
           'Mark the places where your phone should hush — a cinema, an office, a '
           'bedroom — and it silences itself when you arrive and restores the ringer '
@@ -371,6 +375,7 @@ abstract final class PortfolioData {
       title: 'Einbürgerungstest Trainer',
       tagline: 'Prep for the German citizenship test',
       kind: 'Personal app',
+      year: '2025',
       description:
           'A practice app for the German naturalisation test, built on the official '
           'BAMF question catalogue.',
@@ -396,6 +401,7 @@ abstract final class PortfolioData {
       title: 'Electronic Voting System',
       tagline: 'Polling platform for a university',
       kind: 'University team project',
+      year: '2021',
       description:
           'A polling platform that lets university staff and students run polls, '
           'then analyse, visualise and share the results.',
@@ -412,6 +418,7 @@ abstract final class PortfolioData {
       title: 'Event Manager',
       tagline: 'Guest list & gift ledger for family events',
       kind: 'Personal app',
+      year: '2024',
       description:
           'An offline app for organising large family events: guest lists grouped by '
           'place and relation, invitation-card distribution and a ledger of gifts '
