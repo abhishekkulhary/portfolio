@@ -293,6 +293,38 @@ abstract final class PortfolioData {
       ],
     ),
     Project(
+      title: 'PiKeep',
+      tagline: 'Encrypted Raspberry Pi backups, run from your phone',
+      kind: 'Open source',
+      year: '2026',
+      description:
+          'A remote control for the backup job on a Raspberry Pi: choose what to back up, start it '
+          'or schedule it, and watch encrypted restic snapshots of Immich, Nextcloud and any other '
+          'folder upload to OneDrive. The app only sends commands over SSH; the Pi does the work.',
+      highlights: [
+        'A root-run bash agent that treats every network-supplied value as hostile: paths resolved '
+            'and fenced to allowed roots, strict patterns for everything else, nothing reaches a shell.',
+        'Backups run as systemd services, so they survive the app closing; automatic schedules '
+            '(daily, every second day, weekly, monthly) run from a systemd timer.',
+        'Consistent databases: PostgreSQL and MariaDB dumps before upload, Nextcloud maintenance '
+            'mode that is always switched back off, even on cancel.',
+        'Keeps the last N snapshots per source, pruning only sources whose backup succeeded.',
+        'Website screenshots rendered from golden tests with demo data; release builds for every '
+            'desktop and mobile platform plus the Pi agent from GitHub Actions.',
+      ],
+      stack: ['Flutter', 'Dart', 'SSH', 'Bash', 'restic', 'rclone', 'systemd', 'GitHub Actions'],
+      categories: {ProjectCategory.flutter},
+      icon: Icons.cloud_upload_rounded,
+      links: [
+        ProjectLink(
+          label: 'Source',
+          url: 'https://github.com/abhishekkulhary/pikeep',
+          icon: FontAwesomeIcons.github,
+        ),
+        ProjectLink(label: 'Website', url: 'https://abhishekkulhary.github.io/pikeep/', icon: FontAwesomeIcons.globe),
+      ],
+    ),
+    Project(
       title: 'Luna',
       tagline: 'Private, on-device cycle tracker',
       kind: 'Personal app',
